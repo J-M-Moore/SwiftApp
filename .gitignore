@@ -1,0 +1,102 @@
+
+# =====================================
+# macOS
+# =====================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# =====================================
+# Xcode / Swift
+# =====================================
+
+# Build products
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Xcode temporary files
+*.hmap
+*.ipa
+*.app
+
+# =====================================
+# Python
+# =====================================
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =====================================
+# Secrets and environment variables
+# =====================================
+
+.env
+.env.*
+!.env.example
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+
+# =====================================
+# Databases and local data
+# =====================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# =====================================
+# Editors
+# =====================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================================
+# Logs and temporary files
+# =====================================
+
+*.log
+tmp/
+temp/
+
